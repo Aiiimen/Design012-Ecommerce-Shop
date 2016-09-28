@@ -1,0 +1,105 @@
+.container{
+  width: 800px;
+  height: 394px;
+  margin: 0 auto;
+  background-image: url("../css/img/productbackground.png");
+  background-size: 800px 394px;
+  margin-top: 130px;
+  display: flex;
+}
+
+.product-img-container{
+  width: 330px;
+  height: 100%;
+  position: relative;
+}
+.product-img{
+  position: absolute;
+  top: -60px;
+  height: 414px;
+  width: 100%;
+  text-align: center;
+}
+.product-img img{
+  height: 414px;
+}
+.product-carousel{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+/*end of product img*/
+
+.product-info{
+  width: 470px;
+  height: 100%;
+  position: relative;
+}
+.price{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #252525;
+  top: -60px;
+  left: 330px;
+  border-radius: 50%;
+}
+.info{
+  margin: 0 auto;
+  background: yellow;
+  width: 400px;
+  margin-bottom: 10px;
+}
+.title{
+  margin-top: 10px;
+  height: 50px;
+}
+.nav{
+  height: 50px;
+}
+.description{
+  height: 100px;
+}
+.options{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.colors{
+  width: 180px;
+  height: 70px;
+}
+.options-title{
+  height: 35px;
+}
+.color-palettes{
+  width: 180px;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+}
+.c{
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+}
+.quantity{
+  width: 180px;
+  height: 70px;
+}
+input{
+  height: 34px;
+  width: 100px;
+  background: none;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+.addToCart{
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+}
