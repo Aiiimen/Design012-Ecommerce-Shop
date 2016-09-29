@@ -6,6 +6,7 @@
   background-size: 800px 394px;
   margin-top: 130px;
   display: flex;
+  font-family: Segoe UI;
 }
 
 .product-img-container{
@@ -28,6 +29,20 @@
   bottom: 0;
   width: 100%;
   height: 40px;
+  padding-left: 70px;
+  box-sizing: border-box;
+}
+.crsl{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #b9a79d;
+  margin-right: 5px;
+  float: left;
+  margin-top: 15px;
+}
+.fill{
+  background-color: #b9a79d;
 }
 /*end of product img*/
 
@@ -37,33 +52,53 @@
   position: relative;
 }
 .price{
+  color: white;
+  line-height: 120px;
+  text-align: center;
+  font-size: 23pt;
+  font-weight: 100;
   position: absolute;
   width: 120px;
   height: 120px;
   background: #252525;
-  top: -60px;
+  top: -40px;
   left: 330px;
   border-radius: 50%;
 }
+.price span{
+  font-size: 14pt;
+}
 .info{
   margin: 0 auto;
-  background: yellow;
   width: 400px;
   margin-bottom: 10px;
 }
 .title{
   margin-top: 10px;
   height: 50px;
+  line-height: 50px;
+  font-weight: 100;
+  font-size: 18pt;
 }
 .nav{
   height: 50px;
+  line-height: 50px;
+}
+.nav il{
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: 9pt;
 }
 .description{
   height: 100px;
+  font-weight: 100;
+  font-size: 14pt;
 }
 .options{
   height: 70px;
   display: flex;
+  font-weight: 400;
+  font-size: 11pt;
   justify-content: space-between;
 }
 .colors{
@@ -71,7 +106,7 @@
   height: 70px;
 }
 .options-title{
-  height: 35px;
+  height: 25px;
 }
 .color-palettes{
   width: 180px;
@@ -83,23 +118,39 @@
   background-color: black;
   border-radius: 50%;
   margin-right: 10px;
-  height: 35px;
-  width: 35px;
+  height: 20px;
+  width: 20px;
+}
+.c:nth-child(1){
+  background-color: #e5e5e5;
+}
+.c:nth-child(2){
+  background-color: #e0d2ca;
+}
+.c:nth-child(3){
+  background-color: #252525;
 }
 .quantity{
   width: 180px;
   height: 70px;
 }
 input{
-  height: 34px;
-  width: 100px;
+  height: 19px;
+  width: 60px;
   background: none;
   border: 1px solid black;
   padding: 0;
   margin: 0;
 }
 .addToCart{
-  height: 65px;
+  color: white;
+  background-color: #252525;
+  font-size: 23pt;
+  font-weight: 100;
+  height: 60px;
   text-align: center;
-  line-height: 65px;
+  line-height: 60px;
+}
+.active{
+  border-bottom: 1px solid black;
 }
